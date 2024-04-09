@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1712681496 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 9 - karla estefany hernandez pocasangre\src\iapariencia.cpp
+	"iApariencia.h"
+
+1712682047 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 9 - karla estefany hernandez pocasangre\include\iapariencia.h
+
+1712681541 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 9 - karla estefany hernandez pocasangre\src\oswindows.cpp
+	"OSWindows.h"
+
+1712683751 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 9 - karla estefany hernandez pocasangre\include\oswindows.h
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	<string.h>
+	"iApariencia.h"
+
+1712682151 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 9 - karla estefany hernandez pocasangre\main.cpp
+	<iostream>
+	"OSWindows.h"
+
