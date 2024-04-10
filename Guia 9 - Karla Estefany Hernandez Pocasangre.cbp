@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/OSLinux.h" />
+		<Unit filename="include/OSOSx.h" />
 		<Unit filename="include/OSWindows.h" />
 		<Unit filename="include/iApariencia.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/OSLinux.cpp" />
+		<Unit filename="src/OSOSx.cpp" />
 		<Unit filename="src/OSWindows.cpp" />
 		<Unit filename="src/iApariencia.cpp" />
 		<Extensions>

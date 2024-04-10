@@ -1,4 +1,5 @@
 #include "OSWindows.h"
+// Karla Estefany Hernandez Pocasangre Ing Sistemas
 
 OSWindows::OSWindows()
 {
@@ -11,7 +12,7 @@ OSWindows::~OSWindows()
 {
     //dtor
 }
-void OSWindows::PintarWindow()
+void OSWindows::PintarInterfaz()
 {
     //dibujamos la barra de titulo
     DibujarSimbolo('*',80,true);

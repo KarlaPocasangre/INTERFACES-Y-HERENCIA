@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string.h>
 #include "iApariencia.h"
+// Karla Estefany Hernandez Pocasangre Ing Sistemas
 using namespace std;
 
 class OSWindows : public iApariencia
@@ -12,7 +13,7 @@ class OSWindows : public iApariencia
 public:
     OSWindows();
     virtual ~OSWindows();
-    void PintarWindow();
+    void PintarInterfaz();
 
 protected:
     char _win_titulo[100];

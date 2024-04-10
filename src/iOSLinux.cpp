@@ -1,0 +1,57 @@
+#include "iOSLinux.h"
+
+iOSLinux::iOSLinux()
+{
+    strcpy(_lin_titulo,"Ubuntu 22.04");
+    strcpy(_lin_area_trabajo,"No hay nada en el area de trabajo");
+    strcpy(_lin_estado,"Configura Ubuntu e instala los paquetes");
+}
+
+iOSLinux::~iOSLinux()
+{
+    //dtor
+}
+void iOSLinux::PintarLinux()
+{
+    //dibujamos la barra de titulo
+    DibujarSimbolo('~',80,true);
+    DibujarSimbolo('~',1);
+    CentrarTexto(_lin_titulo);
+    DibujarSimbolo('~',1,true);
+    DibujarSimbolo('~',80,true);
+
+    //dibujamos el area de trabajo
+    for(int e=0;e<10;e++)
+    {
+        DibujarSimbolo('~',1);
+        DibujarSimbolo(' ',78);
+        DibujarSimbolo('~',1,true);
+        //cuando llegamos a la fila 5 escribimos
+        //el contenido del area de trabajo
+        if(e == 5)
+        {
+            DibujarSimbolo('~',1);
+            CentrarTexto(_lin_area_trabajo);
+            DibujarSimbolo('~',1,true);
+        }
+    }
+
+    //dibujamos la barra de estado
+    DibujarSimbolo('~',80,true);
+    DibujarSimbolo('~',1);
+    CentrarTexto(_lin_estado);
+    DibujarSimbolo('~',1,true);
+    DibujarSimbolo('~',80,true);
+}
+void iOSLinux::DibujarSimbolo(char _simbolo,int _limite,bool _saltarlinea)
+{
+    //dibujamos la barra de titulo
+    for(int e=0;e<_limite;e++)
+    {
+        cout << _simbolo;
+    }
+    if(_saltarlinea)
+    {
+        cout << endl;
+    }
+}

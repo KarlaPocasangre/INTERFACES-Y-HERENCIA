@@ -1,11 +1,11 @@
 #ifndef IAPARIENCIA_H
 #define IAPARIENCIA_H
-
+// Karla Estefany Hernandez Pocasangre Ing Sistemas
 
 class iApariencia
 {
 public:
-    virtual void PintarWindow() = 0;
+    virtual void PintarInterfaz() = 0;
     virtual void DibujarSimbolo(char, int, bool) = 0;
     iApariencia();
     virtual ~iApariencia();
