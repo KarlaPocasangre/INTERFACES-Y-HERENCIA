@@ -50,3 +50,45 @@
 	<string.h>
 	"iApariencia.h"
 
+1712785373 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\main.cpp
+	<iostream>
+	"OSWindows.h"
+	"OSLinux.h"
+	"OSOSx.h"
+	<stdlib.h>
+
+1712785373 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\include\oswindows.h
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	<string.h>
+	"iApariencia.h"
+
+1712785373 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\include\iapariencia.h
+
+1712785373 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\include\oslinux.h
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	<string.h>
+	"iApariencia.h"
+
+1712785373 c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\include\ososx.h
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	<string.h>
+	"iApariencia.h"
+
+1712681496 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\src\iapariencia.cpp
+	"iApariencia.h"
+
+1712785373 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\src\oslinux.cpp
+	"OSLinux.h"
+
+1712785373 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\src\ososx.cpp
+	"OSOSx.h"
+
+1712785373 source:c:\users\karla\videos\universidad de sonsonate c1 2024\lab programacion\6 abril\guia 4 - karla estefany hernandez pocasangre\src\oswindows.cpp
+	"OSWindows.h"
+
